@@ -1,0 +1,18 @@
+about:
+  version: '${project.version}'
+  authors: [ MinecraftClub ]
+options:
+  enable: true
+accept:
+  - '&fYou have repaired your %gear%!'
+lore:
+  axe:
+    - '&aAdmin &dOP &eAxe&f'
+  sword:
+    - '&aAdmin &dOP &eSword&f'
+  pickaxe:
+    - '&aAdmin &dOP &ePickaxe&f'
+  shovel:
+    - '&aAdmin &dOP &eShovel&f'
+  armor:
+    - '&aAdmin &dOP &eArmor&f'

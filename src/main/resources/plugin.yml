@@ -1,0 +1,25 @@
+name: RightClickRepair
+version: '${project.version}'
+main: club.therepo.rightclickrepair.RightClickRepair
+api-version: 1.17
+prefix: RightClickRepair
+authors: [ MinecraftClub ]
+description: Right click to repair admin gear.
+website: https://github.com/Minecraft-Club/RightClickRepair
+commands:
+  repair:
+    description: Repair all gear!
+    permission: rightclickrepair.use
+    aliases:
+      - fixgear
+    usage: /<command>
+  gear:
+    description: Get all custom gear!
+    permission: rightclickrepair.use
+    aliases:
+      - getgear
+    usage: /<command>
+permissions:
+  rightclickrepair.use:
+    default: false
+    description: Allows you be able to repair there gear.
