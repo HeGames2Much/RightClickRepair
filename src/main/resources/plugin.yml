@@ -6,6 +6,8 @@ prefix: RightClickRepair
 authors: [ MinecraftClub ]
 description: Right click to repair admin gear.
 website: https://github.com/Minecraft-Club/RightClickRepair
+softdepend:
+  - CustomEnchantments
 commands:
   repair:
     description: Repair all gear!

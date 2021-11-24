@@ -1,6 +1,3 @@
-about:
-  version: '${project.version}'
-  authors: [ MinecraftClub ]
 options:
   enable: true
 accept:
@@ -8,6 +5,8 @@ accept:
 lore:
   axe:
     - '&aAdmin &dOP &eAxe&f'
+  bow:
+    - '&aAdmin &dOP &eBow&f'
   sword:
     - '&aAdmin &dOP &eSword&f'
   pickaxe:
